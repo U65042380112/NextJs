@@ -8,10 +8,10 @@ module.exports = {
   development: {
     client: 'mysql2',
     connection: {
-      host: '127.0.0.1',
-      port: '3000',
+      host: 'localhost',
+      port: 3306,
       database: 'nextdb', //ชื่อตั้งเอง
-      user: 'root',
+      user: 'u65042380112',
       password: '',
     }
   },

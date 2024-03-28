@@ -6,11 +6,8 @@ export default function Page()
     return(
         <>
         <br/>
-        <Headerone />
-        <br/>
         <h1 style={{textAlign:"center",fontSize:35}}>Captun Ukrit Jumrunjamjarus (CS)</h1>
         <br/>
-        <Footer />
         </>
     )
 

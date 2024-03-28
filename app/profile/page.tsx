@@ -7,11 +7,8 @@ export default function Profile()
     return(
         <>
         <br/>
-        <Headerone/>
-        <br/>
         <h1 style={{textAlign:"center",fontSize:35}}>Profile</h1>
         <br/>
-        <Footer/>
         </>
     )
 

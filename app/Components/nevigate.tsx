@@ -2,9 +2,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Client } from "undici-types";
+import { Headerone } from "./Header";
+import Footer from "./Footer";
 export default function nevigate() {
     const pathname = usePathname();
   return (
+    
     <div style={{textAlign:"center",fontSize:45}}>
       <Link  href="/Home" className={pathname==='/Home'? "active1":""}>Home</Link>|
       <Link  href="/profile" className={pathname==='/profile'? "active2":""}>Profile</Link>|

@@ -1,15 +1,5 @@
-export async function GET(request,{params}) {
-    const Student = [
-      {
-        id:1,name:"Ukrit",major:"CS",gpa:"3.33"
-      },
-      {
-        id:2,name:"Arkkarat",major:"CS",gpa:"3.99"
-      },
-      {
-        id:3,name:"Thanawat",major:"CS",gpa:"2.50"
-      }
-    ]
+import * as Student from './Student.json'
+export async function GET(request,{params}){
     const id = parseInt(params.id);
     if(!isNaN(id)){
       const foundItem = Student.find(item => item.id === id);

@@ -6,11 +6,8 @@ export default function Info()
     return(
         <>
         <br/>
-        <Headerone />
-        <br/>
         <h1 style={{textAlign:"center",fontSize:35}}>Info</h1>
         <br/>
-        <Footer />
         </>
     )
 

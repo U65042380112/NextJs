@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Nevigate from "./Components/nevigate";
+import { Headerone } from "./Components/Header";
+import Footer from "./Components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}><Nevigate />{children}
+      <body className={inter.className}><Nevigate /><Headerone/>{children}<Footer/>
       </body>
     </html>
   );
